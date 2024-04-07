@@ -1,6 +1,6 @@
 This folder contains Java codes for the following questions
 
-ReplaceCharacterAtIndex.java
+CharacterReplacement.java
 A Java program to Replace a character at a specific index in a String in Java.
 
 CountVowelsConsonants.java
