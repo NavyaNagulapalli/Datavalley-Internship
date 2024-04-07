@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departmental Store Customer Information Form</title>
+</head>
+<body>
+  <h1>Customer Information Form</h1>
+  <form action="/submit_form" method="post" enctype="multipart/form-data" align="center">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    
+    <label for="phone">Contact Phone No:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br><br>
+    
+    <label for="day">Preferred Day(s) of Purchasing:</label><br>
+    <input type="checkbox" id="day" name="day" value="Monday"> Monday<br>
+    <input type="checkbox" id="day" name="day" value="Tuesday"> Tuesday<br>
+    <input type="checkbox" id="day" name="day" value="Wednesday"> Wednesday<br>
+    <input type="checkbox" id="day" name="day" value="Thursday"> Thursday<br>
+    <input type="checkbox" id="day" name="day" value="Friday"> Friday<br>
+    <input type="checkbox" id="day" name="day" value="Saturday"> Saturday<br>
+    <input type="checkbox" id="day" name="day" value="Sunday"> Sunday<br><br>
+    
+    <label for="favitem">Favourite Item:</label>
+    <select id="favitem" name="favitem">
+      <option value="">Select your favourite item</option>
+      <option value="clothing">Clothing</option>
+      <option value="electronics">Electronics</option>
+      <option value="home_goods">Home Goods</option>
+      <option value="toys">Toys</option>
+      <option value="other">Other</option>
+    </select><br><br>
+    
+    <label for="suggestions">Suggestions:</label>
+    <textarea id="suggestions" name="suggestions" rows="4" cols="50" placeholder="Enter your suggestions"></textarea><br><br>
+    
+    <button type="submit">Register</button>
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
